@@ -4,19 +4,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-/**
- * CONTROL DE VERSIONES (estilo Git) EN JAVA
- *
- * Registra cada cambio con fecha y autor, permite volver a versiones
- * anteriores y trabajar en equipo con ramas sin borrar el trabajo ajeno.
- *
- * Es el mismo modelo del ejemplo en MySQL, pero en memoria y sin librerias
- * externas. Compatible con Java 8 o superior.
- */
 
-// ---------------------------------------------------------------------
-// DEMO: el mismo escenario del ejemplo en MySQL
-// ---------------------------------------------------------------------
 public class ControlVersiones {
 
     public static void main(String[] args) {
