@@ -10,7 +10,7 @@ public class ControlVersiones {
     public static void main(String[] args) {
         Repositorio repo = new Repositorio("tienda-web");
 
-        // 1. Ana crea el proyecto
+
         repo.commit("Ana Torres", "Commit inicial",
                 Repositorio.cambios("index.php", "<?php echo 'Bienvenido a la tienda'; ?>"));
 
