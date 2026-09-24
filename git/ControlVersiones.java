@@ -31,7 +31,7 @@ public class ControlVersiones {
         repo.commit("Ana Torres", "Corregir bug en login (rompia la sesion)",
                 Repositorio.cambios("login.php", "login v2: BUG, cierra la sesion por error"));
 
-        // 5. Ana fusiona el trabajo de Marta en main (nadie pierde nada)
+
         repo.merge("feature-carrito", "Ana Torres");
         repo.log();
         repo.mostrarArchivos();
